@@ -3,6 +3,6 @@ This python module is a part of XTension at https://MacHomeAutomation.com it pro
 This program is included in the release version of XTension and does not need to be included with each plugin. It is in the include path when a plugin is running with the included Python build and can be included into any plugin by adding this to the include section:
 
 ```
-rom xtension_plugin.xtension_constants import *
+from xtension_plugin.xtension_constants import *
 from xtension_plugin.xtension_plugin import *
 ```
